@@ -52,7 +52,7 @@ const CardEditForm = ({ FileInput, card, updateCard, deleteCard }) => {
       >
         <option value="light">light</option>
         <option value="dark">dark</option>
-        <option value="colorful">coloful</option>
+        <option value="colorful">colorful</option>
       </select>
       <input
         className={styles.input}

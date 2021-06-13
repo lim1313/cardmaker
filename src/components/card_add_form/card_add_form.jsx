@@ -61,7 +61,7 @@ const CardAddForm = ({ FileInput, onAdd }) => {
       >
         <option placeholder="light">light</option>
         <option placeholder="dark">dark</option>
-        <option placeholder="colorful">coloful</option>
+        <option placeholder="colorful">colorful</option>
       </select>
       <input
         ref={titleRef}

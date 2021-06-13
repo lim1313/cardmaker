@@ -3,6 +3,7 @@
 .preview {
   flex-basis: 50%;
   background-color: wheat;
+  overflow-y: auto;
 }
 
 .title {

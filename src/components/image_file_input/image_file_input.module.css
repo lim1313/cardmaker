@@ -40,7 +40,7 @@
   border-radius: 50%;
   border: 3px solid makerLightGrey;
   border-top: 3px solid makerPink;
-  animation: spin 2s linear infinite;
+  animation: spin 1s linear infinite;
 }
 
 @keyframes spin {
