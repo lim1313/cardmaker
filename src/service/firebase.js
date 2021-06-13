@@ -1,9 +1,9 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCyKqOvPQTQveVK1gFoE_V-1KIdnW_0SGc",
-  authDomain: "card-maker-9e9a8.firebaseapp.com",
-  projectId: "card-maker-9e9a8",
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_PROJECT_ID,
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
